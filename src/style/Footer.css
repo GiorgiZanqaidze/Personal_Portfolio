@@ -1,0 +1,113 @@
+
+
+/* global style */
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Inter:wght@100;200;300;400;500;600;700;800&family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+/* global style end */
+
+.footer-container {
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    background-color: rgb(13, 16, 23);
+    position: relative;
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 10px #080606;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.stripes-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10px;
+}
+
+.stripes-container > div {
+    width: 25%;
+    height: 100%;
+}
+.stripes-container > div.red {
+    width: 25%;
+    height: 100%;
+    background-color: #d7422b;
+}
+.stripes-container > div.yellow {
+    width: 25%;
+    height: 100%;
+    background-color: #f0db4f;
+}
+.stripes-container > div.white {
+    width: 25%;
+    height: 100%;
+    background-color: #57595b;
+}
+.stripes-container > div.blue {
+    width: 25%;
+    height: 100%;
+    background-color: #69dcfa;
+}
+
+.contact-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+small {
+    word-wrap: break-word;
+}
+
+.contact-link .link {
+    font-family: 'Sono', sans-serif;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 4px;
+    color: #57595b;
+    font-size: 20px;
+    border: 1px solid #f0db4f;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    border-radius: 2px;
+    transition: all 0.3s linear;
+    
+}
+.contact-link .link:hover {
+    color: white;
+}
+
+.contact-link small {
+    font-size: 10px;
+    color: #d7422b;
+    color: #69dcfa;
+}

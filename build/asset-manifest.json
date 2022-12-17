@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.28a1ae0d.css",
+    "main.js": "/static/js/main.84869a7d.js",
+    "static/media/GZLogo7.png": "/static/media/GZLogo7.4c120661dfa5f4b666cc.png",
+    "static/media/netlify.png": "/static/media/netlify.1230692bb636005c66e2.png",
+    "static/media/css.png": "/static/media/css.74ff0b5fd86f9eadddd3.png",
+    "static/media/react.png": "/static/media/react.5e076df924cc7fb59bc5.png",
+    "static/media/javascript.png": "/static/media/javascript.75220e22aacfddc29275.png",
+    "static/media/figma.png": "/static/media/figma.a5986003dbdc6d91dbc5.png",
+    "static/media/github.png": "/static/media/github.f9f08effba98cbdb7b69.png",
+    "index.html": "/index.html",
+    "main.28a1ae0d.css.map": "/static/css/main.28a1ae0d.css.map",
+    "main.84869a7d.js.map": "/static/js/main.84869a7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28a1ae0d.css",
+    "static/js/main.84869a7d.js"
+  ]
+}

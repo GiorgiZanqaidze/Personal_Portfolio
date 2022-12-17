@@ -1,0 +1,133 @@
+
+
+/* global style */
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,300;1,400&family=Inter:wght@100;200;300;400;500;600;700;800&family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+/* global style end */
+
+
+.projects-container {
+    font-family: 'Sono', sans-serif;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: hsl(222, 28%, 7%);
+    color: hsl(220, 2%, 35%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 10px 10px #080606;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projects {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.projects > h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.websites {
+    border: solid 2px hsl(220, 2%, 35%);
+    padding: 1em;
+}
+
+.websites-list {
+    display: grid;
+    grid-template-columns: 1;
+    justify-content: center;
+    gap: 10px;
+}
+.websites-list .item{
+    width: 70vw;
+    /* min-width: 200px; */
+    /* max-width: 400px; */
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.websites-list .item a {
+    display: inline-block;
+}
+.websites-list .item a img{
+    width: 100%;
+    /* height:200px; */
+}
+.websites-list .item a .describtion{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 40%;
+    transition: all 0.3s linear;
+    background-color: #0d1017e8;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+/* show describtion */
+.websites-list .item a .describtion.show-desc {
+    top: 100%;
+    background-color: #0d10171f;
+}
+
+.websites > h4 {
+    font-size: 20px;
+}
+.item h2 {
+    font-size: 1rem;
+}
+
+.item h4 {
+    font-size: 1rem;
+}
+.item p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 700px) {
+    .websites-list {
+        /* display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 10px; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-auto-rows: 60px; */
+        grid-gap: 20px;
+    }
+    .websites-list .item{
+        width: 40vw;
+        /* min-width: 250px; */
+        max-width: 500px;
+        background-color: white;
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,32 @@
+
+
+/* global style */
+/* *, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* global style end */
+
+.App {
+    min-height: 100vh;
+    background-color: hsl(222, 28%, 7%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 400px) {
+    .App {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}

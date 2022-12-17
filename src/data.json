@@ -1,0 +1,78 @@
+{
+  "websites": 
+    [
+    { 
+        "id":1,
+        "href": "https://remarkable-pasca-6776b4.netlify.app/",
+        "title": "Quizze App",
+        "url": "projectsImages/quizzeApp.png",
+        "use": "css, javascript, React.js",
+        "type": "app"
+    },
+    { 
+        "id":2,
+        "href": "https://deluxe-fairy-37b8a4.netlify.app/",
+        "title": "To Do App",
+        "url": "projectsImages/reactToDoApp.png",
+        "use": "css, javascript, React.js",
+        "type": "app"
+    },
+    { 
+        "id":3,
+        "href": "https://thunderous-panda-604d11.netlify.app/",
+        "title": "Countries API",
+        "url": "projectsImages/countries.png",
+        "use": "css, javascript, React.js",
+        "type": "app"
+    },
+    { 
+        "id":4,
+        "href": "https://legendary-entremet-1620b0.netlify.app/",
+        "title": "Whac-a-mole",
+        "url": "projectsImages/Whac-a-mole.png",
+        "use": "html, css, javascript",
+        "type": "Game"
+    },
+    { 
+        "id":5,
+        "href": "https://incandescent-baklava-3fadc6.netlify.app/",
+        "title": "Bubbles",
+        "url": "projectsImages/bubbles.png",
+        "use": "html, css, javascript",
+        "type": "canvas project"
+    },
+    { 
+        "id":6,
+        "href": "https://gleaming-cucurucho-1c216b.netlify.app/",
+        "title": "Burger Menu",
+        "url": "projectsImages/BurgerBar.png",
+        "use": "html, css",
+        "type": "Webpage"
+    },
+    { 
+        "id":7,
+        "href": "https://creative-kulfi-bf5386.netlify.app/",
+        "title": "Countdown",
+        "url": "projectsImages/random2.png",
+        "use": "html, css, vanila javascript",
+        "type": "Webpage"
+    },
+    { 
+        "id":8,
+        "href": "https://comfy-marzipan-12e604.netlify.app/",
+        "title": "Choose Menu",
+        "url": "projectsImages/menu.png",
+        "use": "html, css, vanila javascript",
+        "type": "Webpage"
+    },
+    { 
+        "id":9,
+        "href": "https://remarkable-lokum-9776e4.netlify.app/",
+        "title": "To Do App",
+        "url": "projectsImages/jsToDoApp.png",
+        "use": "html, css, vanila javascript",
+        "type": "app"
+    }
+  ]
+}
+
